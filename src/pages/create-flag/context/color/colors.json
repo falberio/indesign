@@ -1,0 +1,10 @@
+[
+    {"name": "--first-color", "_id": 1, "_value": "#b57373", "active": true},
+    {"name": "--second-color", "_id": 2, "_value": "#3ca2b4", "active": true}, 
+    {"name": "--third-color", "_id": 3, "_value": "#5cbc67", "active": true},
+    {"name": "--fourth-color", "_id": 4, "_value": "#ced930", "active": false},
+    {"name": "-fifth--color", "_id": 5, "_value": "#b14ca0", "active": false},
+    {"name": "--sixth-color", "_id": 6, "_value": "#000000", "active": false},
+    {"name": "--seveth-color", "_id": 7, "_value": "#c97a1f", "active": false},
+    {"name": "--eighth-color", "_id": 8, "_value": "#608574", "active": false}
+]

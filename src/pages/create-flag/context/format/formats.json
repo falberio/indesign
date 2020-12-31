@@ -1,0 +1,129 @@
+[
+    {
+        "data": {
+            "lines": {
+                "_id": 1,
+                "name": "lines",
+                "selectedSubformat": "vertical",
+                "subformats": ["vertical", "horizontal"],
+                "dimensions": {
+                    "item_1": {"_id": 1, "size": 33.3333},
+                    "item_2": {"_id": 2, "size": 33.3333},
+                    "item_3": {"_id": 3, "size": 33.3333}
+                },
+                "colores": {
+                    "min": 2,
+                    "max": 8,
+                    "allowed": [2,3,4,5,6,7,8],
+                    "isSummable": false,
+                    "isReducible": true,
+                    "selected": 2
+                },
+                "parts": {
+                    "min": 2,
+                    "max": 8,
+                    "allowed": [2,3,4,5,6,7,8],
+                    "isSummable": true,
+                    "isReducible": true,
+                    "selected": 2,
+                    "isModifiable": true
+                }
+            },
+            "circle": {
+                "_id": 2,
+                "name": "circle",
+                "selectedSubformat": "normal",
+                "subformats": ["normal"],
+                "dimensions": {
+                    "item_1": {"_id": 1, "size": 33}
+                },
+                "colores": {
+                    "min": 2,
+                    "max": 2,
+                    "allowed": [2],
+                    "isSummable": false,
+                    "isReducible": false,
+                    "selected": 2
+                },
+                "parts": {
+                    "min": 2,
+                    "max": 2,
+                    "allowed": [2],
+                    "isSummable": false,
+                    "isReducible": false,
+                    "selected": 2,
+                    "isModifiable": false
+                }
+            },
+            "squares": {
+                "_id": 3,
+                "name": "squares",
+                "selectedSubformat": "normal",
+                "subformats": ["normal"],
+                "colores": {
+                    "min": 2,
+                    "max": 4,
+                    "allowed": [2, 3, 4],
+                    "isSummable": false,
+                    "isReducible": true,
+                    "selected": 4
+                },
+                "parts": {
+                    "min": 4,
+                    "max": 64,
+                    "allowed": [4,16,64],
+                    "isSummable": true,
+                    "isReducible": false,
+                    "selected": 4,
+                    "isModifiable": true
+                }
+            },
+            "diagonal": {
+                "_id": 4,
+                "name": "diagonal",
+                "selectedSubformat": "normal",
+                "subformats": ["normal", "invested"],
+                "colores": {
+                    "min": 2,
+                    "max": 2,
+                    "allowed": [2],
+                    "isSummable": false,
+                    "isReducible": false,
+                    "selected": 2
+                },
+                "parts": {
+                    "min": 1,
+                    "max": 1,
+                    "allowed": [2],
+                    "isSummable": false,
+                    "isReducible": false,
+                    "selected": 1,
+                    "isModifiable": false
+                }
+            },
+            "rhombus": {
+                "_id": 5,
+                "name": "rhombus",
+                "selectedSubformat": "normal",
+                "subformats": ["normal", "invested"],
+                "colores": {
+                    "min": 2,
+                    "max": 2,
+                    "allowed": [2],
+                    "isSummable": false,
+                    "isReducible": false,
+                    "selected": 2
+                },
+                "parts": {
+                    "min": 4,
+                    "max": 4,
+                    "isSummable": false,
+                    "isReducible": false,
+                    "selected": 4,
+                    "isModifiable": false
+                }
+            }
+        }
+    }
+    
+]

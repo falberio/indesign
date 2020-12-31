@@ -4,8 +4,8 @@ const Letra = ({letra}) => {
 
 
     return ( 
-        <div className="circle-wrapper">
-            <div className="circle"></div>
+        <div className="letra-wrapper">
+            <div className="fondo"></div>
             <div className="letra">
                 <p>{letra}</p>  
             </div>
